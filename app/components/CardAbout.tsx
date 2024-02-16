@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Linkedin, Mail } from 'lucide-react'
+import { Github, Linkedin, Mail } from 'lucide-react'
 import Card from './Card'
 
 export default function CardAbout() {
@@ -16,16 +16,6 @@ export default function CardAbout() {
         <hr className="my-4 border-t border-slate-200" />
 
         <div className="flex flex-col">
-          <a
-            className="text-sm font-medium text-slate-800"
-            href="https://viniciosbarbosa.dev"
-          >
-            <ExternalLink size={14} className="inline-block -mt-0.5 mr-2" />
-            viniciosbarbosa.dev
-          </a>
-
-          <hr className="my-1 border-t border-slate-200" />
-
           <a
             className="text-sm font-medium text-slate-800"
             href="mailto:viniciosbarbosa.dev@gmail.com"
@@ -48,10 +38,10 @@ export default function CardAbout() {
 
           <a
             className="text-sm font-medium text-slate-800"
-            href="https://linkedin.com/in/viniciosbarbosa"
+            href="https://linkedin.com/in/vinebarbosa"
           >
             <Linkedin size={14} className="inline-block -mt-0.5 mr-2" />
-            linkedin.com/in/viniciosbarbosa
+            linkedin.com/in/vinebarbosa
           </a>
         </div>
       </div>
