@@ -1,7 +1,9 @@
 import type { ReactNode } from 'react'
 
-export type WithChildren<T = {}> = T & { children?: ReactNode }
+export type WithChildren<T = unknown> = T & { children?: ReactNode }
 
-export type WithClassName<T = {}> = T & { className?: string }
+export type WithClassName<T = unknown> = T & { className?: string }
 
-export type WithChildrenAndClassName<T = {}> = WithChildren<WithClassName<T>>
+export type WithChildrenAndClassName<T = unknown> = WithChildren<
+  WithClassName<T>
+>
