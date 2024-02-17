@@ -1,5 +1,6 @@
 import CardAbout from './components/CardAbout'
 import CardMain from './components/CardMain'
+import InformationCard from './components/InformationCard'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
         <div className="w-100 md:max-w-[360px] space-y-4">
           <CardMain />
           <CardAbout />
+          <InformationCard />
         </div>
         <div></div>
       </div>
