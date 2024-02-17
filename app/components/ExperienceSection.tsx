@@ -1,6 +1,6 @@
 import { BriefcaseIcon, CalendarRange, MapPinIcon } from 'lucide-react'
 import Card from './Card'
-import Image from 'next/image'
+import { InfoCard } from './InfoCard'
 
 const data = [
   {
@@ -36,49 +36,32 @@ export default function ExperienceSection() {
     <section className="w-100">
       <Card title="Experience">
         <div className="space-y-2">
-          {data.map((item, index) => (
-            <div
-              className="flex flex-col lg:flex-row bg-slate-100/40 rounded-lg p-4 gap-4 hover:bg-gray-100 transition duration-300 ease-in-out"
-              key={index}
-            >
-              <Image
-                src={item.company.logo}
-                alt="company logo"
-                className="rounded-full w-12 h-12"
-                width={48}
-                height={48}
-                priority
-              />
+          {data.map((item) => (
+            <InfoCard.Root key={item.title}>
+              <InfoCard.Icon src={item.company.logo} />
               <div>
-                <div className="flex justify-between">
-                  <h3 className="text-sm font-medium text-gray-800">
-                    {item.title}
-                  </h3>
-                  <p className="text-xs font-medium text-gray-600 bg-gray-200 px-2 py-1">
-                    {item.modality}
-                  </p>
-                </div>
-                <div className="flex flex-col md:flex-row gap-2 lg:gap-4 mt-2">
-                  <div className="flex gap-1 text-gray-500">
-                    <BriefcaseIcon size={14} />
-                    <p className="text-xs">{item.company.name}</p>
-                  </div>
-                  <div className="flex gap-1 text-gray-500">
-                    <MapPinIcon size={14} />
-                    <p className="text-xs">{item.company.location}</p>
-                  </div>
-                  <div className="flex gap-1 text-gray-500">
-                    <CalendarRange size={14} />
-                    <p className="text-xs">
+                <InfoCard.Header>
+                  <InfoCard.HeaderTitle>{item.title}</InfoCard.HeaderTitle>
+                  <InfoCard.HeaderTag>{item.modality}</InfoCard.HeaderTag>
+                </InfoCard.Header>
+                <InfoCard.Content>
+                  <InfoCard.SubInfoList>
+                    <InfoCard.SubInfoItem icon={<BriefcaseIcon size={14} />}>
+                      {item.company.name}
+                    </InfoCard.SubInfoItem>
+                    <InfoCard.SubInfoItem icon={<MapPinIcon size={14} />}>
+                      {item.company.location}
+                    </InfoCard.SubInfoItem>
+                    <InfoCard.SubInfoItem icon={<CalendarRange size={14} />}>
                       {item.startDate} - {item.endDate}
-                    </p>
-                  </div>
-                </div>
-                <p className="text-gray-500 text-sm  mt-4">
-                  {item.description}
-                </p>
+                    </InfoCard.SubInfoItem>
+                  </InfoCard.SubInfoList>
+                  <InfoCard.Description>
+                    {item.description}
+                  </InfoCard.Description>
+                </InfoCard.Content>
               </div>
-            </div>
+            </InfoCard.Root>
           ))}
         </div>
       </Card>
