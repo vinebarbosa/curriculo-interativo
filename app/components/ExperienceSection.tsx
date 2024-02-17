@@ -1,5 +1,6 @@
 import { BriefcaseIcon, CalendarRange, MapPinIcon } from 'lucide-react'
 import Card from './Card'
+import Image from 'next/image'
 
 const data = [
   {
@@ -40,10 +41,12 @@ export default function ExperienceSection() {
               className="flex flex-col lg:flex-row bg-slate-100/40 rounded-lg p-4 gap-4 hover:bg-gray-100 transition duration-300 ease-in-out"
               key={index}
             >
-              <img
+              <Image
                 src={item.company.logo}
-                alt=""
+                alt="company logo"
                 className="rounded-full w-12 h-12"
+                width={48}
+                height={48}
               />
               <div>
                 <div className="flex justify-between">

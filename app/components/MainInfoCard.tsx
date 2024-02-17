@@ -19,7 +19,13 @@ export default function MainInfoCard() {
   return (
     <Card className="p-0 w-full overflow-hidden">
       <div className="relative ">
-        <img src="/cover.jpg" alt="" className="h-full w-full" />
+        <Image
+          src="/cover.jpg"
+          alt="cover"
+          className="h-full w-full"
+          height={400}
+          width={300}
+        />
         <div className="absolute top-0 left-0 right-0 h-full flex items-end p-4 bg-gradient-to-b-tranparent">
           <Image
             className="rounded-full border-4 border-white w-20 h-20"
