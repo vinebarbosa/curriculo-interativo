@@ -17,6 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="jDiKgJavZNCYN4CsVpbIu0qz_QvS1wS_cUtveinBeZ4"
+        />
+      </head>
       <body className={clsx(inter.className, 'bg-slate-50')} data-theme="dark">
         {children}
       </body>
