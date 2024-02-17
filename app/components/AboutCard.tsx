@@ -1,7 +1,7 @@
 import { Github, Linkedin, Mail } from 'lucide-react'
 import Card from './Card'
 
-export default function CardAbout() {
+export default function AboutCard() {
   return (
     <Card className="py-4" title="About me">
       <div className="bg-slate-100/40 p-4 rounded-lg">

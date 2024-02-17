@@ -14,7 +14,7 @@ const skills = [
   'Tailwind CSS',
 ]
 
-export default function CardMain() {
+export default function MainInfoCard() {
   return (
     <Card className="p-0 w-full overflow-hidden">
       <div className="relative ">
@@ -32,7 +32,7 @@ export default function CardMain() {
           <h1 className="text-md font-medium text-gray-800 relative ">
             Vinícios Barbosa
           </h1>
-          <div className="flex items-center justify-center animate-pulse-custom bg-emerald-400/20 p-1 rounded-full">
+          <div className="flex items-center justify-center animate-pulse-custom bg-emerald-500/20 p-1 rounded-full">
             <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full"></div>
           </div>
         </div>
