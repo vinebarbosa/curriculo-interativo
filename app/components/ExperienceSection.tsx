@@ -54,7 +54,7 @@ export default function ExperienceSection() {
                     {item.modality}
                   </p>
                 </div>
-                <div className="flex gap-4 mt-2">
+                <div className="flex flex-col md:flex-row gap-2 lg:gap-4 mt-2">
                   <div className="flex gap-1 text-gray-500">
                     <BriefcaseIcon size={14} />
                     <p className="text-xs">{item.company.name}</p>
