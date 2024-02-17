@@ -22,9 +22,9 @@ export default function MainInfoCard() {
         <Image
           src="/cover.jpg"
           alt="cover"
-          className="w-full h-[360px]"
-          height={360}
-          width={240}
+          className="w-full h-full object-cover rounded-t-lg"
+          height={393}
+          width={294}
           priority
         />
         <div className="absolute top-0 left-0 right-0 h-full flex items-end p-4 bg-gradient-to-b-tranparent">
