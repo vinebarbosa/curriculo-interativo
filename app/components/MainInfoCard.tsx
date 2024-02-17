@@ -1,6 +1,7 @@
 import { Download } from 'lucide-react'
 import Badge from './Badge'
 import Card from './Card'
+import Image from 'next/image'
 
 const skills = [
   'TypeScript',
@@ -20,10 +21,12 @@ export default function MainInfoCard() {
       <div className="relative ">
         <img src="/cover.jpg" alt="" className="h-full w-full" />
         <div className="absolute top-0 left-0 right-0 h-full flex items-end p-4 bg-gradient-to-b-tranparent">
-          <img
+          <Image
             className="rounded-full border-4 border-white w-20 h-20"
-            src="https://avatars.githubusercontent.com/u/46247193?v=4"
-            alt=""
+            src="/avataar.png"
+            alt="Vinícios Barbosa avatar"
+            width={80}
+            height={80}
           />
         </div>
       </div>
