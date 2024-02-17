@@ -2,6 +2,7 @@ import AboutCard from './components/AboutCard'
 import MainInfoCard from './components/MainInfoCard'
 import InformationCard from './components/InformationCard'
 import ExperienceSection from './components/ExperienceSection'
+import EducationSection from './components/EducationSection'
 
 export default function Home() {
   return (
@@ -12,8 +13,9 @@ export default function Home() {
           <AboutCard />
           <InformationCard />
         </div>
-        <div className="w-full">
+        <div className="w-full space-y-4">
           <ExperienceSection />
+          <EducationSection />
         </div>
       </div>
     </main>
