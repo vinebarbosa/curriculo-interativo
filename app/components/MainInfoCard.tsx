@@ -18,11 +18,11 @@ const skills = [
 export default function MainInfoCard() {
   return (
     <Card className="p-0 w-full overflow-hidden">
-      <div className="relative ">
+      <div className="relative">
         <Image
           src="/cover.jpg"
           alt="cover"
-          className="w-full"
+          className="w-full h-[360px]"
           height={360}
           width={240}
           priority
