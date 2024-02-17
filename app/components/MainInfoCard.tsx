@@ -22,7 +22,7 @@ export default function MainInfoCard() {
         <Image
           src="/cover.jpg"
           alt="cover"
-          className="w-full h-full object-cover rounded-t-lg"
+          className="w-full  object-cover rounded-t-lg"
           height={393}
           width={294}
           priority
