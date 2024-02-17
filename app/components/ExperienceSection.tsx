@@ -10,7 +10,7 @@ const data = [
     company: {
       name: 'Google',
       location: 'Mountain View, CA',
-      logo: 'https://preview.launchoice.com/personal_cv/assets/images/google.jpg',
+      logo: '/google.jpg',
     },
     startDate: 'Jul 2019',
     endDate: 'Present',
@@ -23,7 +23,7 @@ const data = [
     company: {
       name: 'Amazon',
       location: 'Seattle, WA',
-      logo: 'https://preview.launchoice.com/personal_cv/assets/images/amazon.jpg',
+      logo: '/amazon.jpg',
     },
     startDate: 'May 2018',
     endDate: 'Aug 2018',
