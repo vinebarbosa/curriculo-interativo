@@ -19,20 +19,22 @@ export default function MainInfoCard() {
   return (
     <Card className="p-0 w-full overflow-hidden">
       <div className="relative ">
-        <img
+        <Image
           src="/cover.jpg"
           alt="cover"
-          className="w-full h-full"
+          className="w-full"
           height={360}
           width={240}
+          priority
         />
         <div className="absolute top-0 left-0 right-0 h-full flex items-end p-4 bg-gradient-to-b-tranparent">
-          <img
+          <Image
             className="rounded-full border-4 border-white w-20 h-20"
             src="/avatar.png"
             alt="Vinícios Barbosa avatar"
             width={80}
             height={80}
+            priority
           />
         </div>
       </div>
