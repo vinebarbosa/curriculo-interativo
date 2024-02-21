@@ -12,7 +12,7 @@ interface IInfoCardSubInfoItem extends WithChildren {
 
 function InfoCardRoot({ children }: WithChildren) {
   return (
-    <div className="flex flex-col lg:flex-row bg-slate-100/40 rounded-lg p-4 gap-4 hover:bg-gray-100 transition duration-300 ease-in-out">
+    <div className="flex flex-col lg:flex-row bg-slate-100/40 rounded-xl p-4 gap-4 hover:bg-gray-100 transition duration-300 ease-in-out">
       {children}
     </div>
   )
@@ -72,6 +72,10 @@ function InfoCardDescriotion({ children }: WithChildren) {
   return <p className="text-gray-500 text-sm  mt-4">{children}</p>
 }
 
+function InfoCardFooter({ children }: WithChildren) {
+  return <div className="flex justify-between mt-4">{children}</div>
+}
+
 export const InfoCard = {
   Root: InfoCardRoot,
   Icon: InfoCardIcon,
@@ -82,4 +86,5 @@ export const InfoCard = {
   SubInfoList: InfoCardSubInfoList,
   SubInfoItem: InfoCardSubInfoItem,
   Description: InfoCardDescriotion,
+  Footer: InfoCardFooter,
 }

@@ -7,7 +7,7 @@ type ICard = WithChildrenAndClassName & {
 
 const Card = ({ children, title, className }: ICard) => {
   return (
-    <div className={classNames('bg-white rounded-xl shadow-lg p-2', className)}>
+    <div className={classNames('bg-white rounded-xl shadow p-2', className)}>
       {title && (
         <div className="flex items-center gap-2 p-4">
           <div className="w-1.5 h-1.5 bg-blue-500 rounded-full" />

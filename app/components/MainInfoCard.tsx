@@ -27,7 +27,7 @@ export default function MainInfoCard() {
           width={360}
           priority
         />
-        <div className="absolute top-0 left-0 right-0 h-full flex items-end p-4 bg-gradient-to-b-tranparent">
+        <div className="absolute top-0 left-0 right-0 h-full flex items-end p-4 bg-gradient-to-b-transparent">
           <Image
             className="rounded-full border-4 border-white w-20 h-20"
             src="/avatar.png"
