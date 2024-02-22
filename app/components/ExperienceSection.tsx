@@ -1,42 +1,14 @@
 import { BriefcaseIcon, CalendarRange, MapPinIcon } from 'lucide-react'
 import Card from './Card'
 import { InfoCard } from './InfoCard'
-
-const data = [
-  {
-    title: 'Full-time Software Engineer',
-    description:
-      'Developed and maintained web applications using React, Node.js, and Python. Worked with a team of engineers to deliver high-quality software on time and within budget.',
-    company: {
-      name: 'Google',
-      location: 'Mountain View, CA',
-      logo: '/google.jpg',
-    },
-    startDate: 'Jul 2019',
-    endDate: 'Present',
-    modality: 'Full-time',
-  },
-  {
-    title: 'Software Engineer Intern',
-    description:
-      "Designed and implemented new features for Amazon's e-commerce platform. Worked on a team of engineers to improve the user experience and increase sales.",
-    company: {
-      name: 'Amazon',
-      location: 'Seattle, WA',
-      logo: '/amazon.jpg',
-    },
-    startDate: 'May 2018',
-    endDate: 'Aug 2018',
-    modality: 'Internship',
-  },
-]
+import { experience } from '@/data/experience'
 
 export default function ExperienceSection() {
   return (
     <section className="w-100">
       <Card title="Experience">
         <div className="space-y-2">
-          {data.map((item) => (
+          {experience.map((item) => (
             <InfoCard.Root key={item.title}>
               <InfoCard.Icon src={item.company.logo} />
               <div>

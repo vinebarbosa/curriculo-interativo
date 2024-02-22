@@ -2,18 +2,7 @@ import { Download } from 'lucide-react'
 import Badge from './Badge'
 import Card from './Card'
 import Image from 'next/image'
-
-const skills = [
-  'TypeScript',
-  'React',
-  'Node.js',
-  'Next.js',
-  'NestJS',
-  'Prisma',
-  'Material UI',
-  'PostgreSQL',
-  'Tailwind CSS',
-]
+import { skills } from '@/data/skills'
 
 export default function MainInfoCard() {
   return (
