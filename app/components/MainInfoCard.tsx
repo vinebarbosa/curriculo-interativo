@@ -3,6 +3,7 @@ import Badge from './Badge'
 import Card from './Card'
 import Image from 'next/image'
 import { skills } from '@/data/skills'
+import Link from 'next/link'
 
 export default function MainInfoCard() {
   return (
@@ -53,10 +54,12 @@ export default function MainInfoCard() {
           ))}
         </div>
 
-        <button className="mt-8 bg-blue-600 text-white py-2.5 px-4 rounded-md text-xs font-medium w-full hover:bg-blue-700 transition duration-200">
-          Download CV
-          <Download className="inline-block ml-2 -mt-1" size={14} />
-        </button>
+        <Link href="/resume.pdf" download="Vinícios Barbosa - Currículo.pdf">
+          <button className="mt-8 bg-blue-600 text-white py-2.5 px-4 rounded-md text-xs font-medium w-full hover:bg-blue-700 transition duration-200">
+            Download CV
+            <Download className="inline-block ml-2 -mt-1" size={14} />
+          </button>
+        </Link>
       </div>
     </Card>
   )
