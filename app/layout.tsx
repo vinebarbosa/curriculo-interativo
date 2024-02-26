@@ -11,8 +11,9 @@ import Navbar from './components/Nav'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Personal CV - Vinícios Barbosa',
-  description: 'This website is a interactive cv for Vinícios Barbosa',
+  title: 'Software Engineer | Vinícios Barbosa Portfolio',
+  description:
+    'Olá, meu nome é Vinícios, sou Engenheiro de Software no LAIS. Sou um apaixonado por tecnologia e código aberto. Estou sempre em busca de novos desafios e oportunidades para aprender algo novo. Aqui você encontrará um pouco do meu trabalho e projetos pessoais.',
 }
 
 export default function RootLayout({
