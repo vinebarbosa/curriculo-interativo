@@ -18,10 +18,10 @@ export default function AboutCard() {
         <div className="flex flex-col">
           <a
             className="text-sm font-medium text-slate-800"
-            href="mailto:viniciosbarbosa.dev@gmail.com"
+            href="mailto:contato@viniciosbarbosa.com"
           >
             <Mail size={14} className="inline-block -mt-0.5 mr-2" />
-            viniciosbarbosa.dev@gmail.com
+            contato@viniciosbarbosa.com
           </a>
 
           <hr className="my-1 border-t border-slate-200" />
