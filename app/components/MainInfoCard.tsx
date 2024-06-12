@@ -44,7 +44,7 @@ export default function MainInfoCard() {
       </div>
       <div className="bg-slate-100/40 p-4 m-2 rounded-lg">
         <p className="text-sm text-slate-500 leading-relaxed">
-          Full-stack developer with 3+ years of experience in building web apps.
+          Full-stack developer with solid experience in building web apps.
           Skilled in React, Node.js, TypeScript, and more.
         </p>
 

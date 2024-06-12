@@ -12,7 +12,7 @@ export default function InformationCard() {
 
         <div className="flex justify-between">
           <p className="text-sm text-gray-500">Experience</p>
-          <p className="text-sm text-gray-700">&gt;3 years</p>
+          <p className="text-sm text-gray-700">Specialist</p>
         </div>
 
         <hr className="my-2" />
