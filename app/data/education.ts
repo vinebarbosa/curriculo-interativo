@@ -6,7 +6,7 @@ export const education = [
     institution: {
       name: 'Rocketseat',
       location: 'Online',
-      icon: 'https://media.licdn.com/dms/image/D4D0BAQGWWA3gGWJ3Sg/company-logo_100_100/0/1701903187680/rocketseat_logo?e=1716422400&v=beta&t=hty9IxdTy1FOStmCkImqOSjgrDy32szE_kG5y1GwtUc',
+      icon: '/rocketseat_logo.jpeg',
     },
     startDate: '2020',
     endDate: '2021',
@@ -18,7 +18,7 @@ export const education = [
     institution: {
       name: 'IFRN',
       location: 'Ceará-Mirim, RN',
-      icon: 'https://media.licdn.com/dms/image/C4D0BAQFBbroplNr1SQ/company-logo_100_100/0/1630543005144/ifrn_logo?e=1716422400&v=beta&t=ZXQSE2tIRBa0EQlzvAy0O2M8OYMqKXE2ZJpV6VCEXXY',
+      icon: '/ifrn_logo.jpeg',
     },
     startDate: '2018',
     endDate: '2021',

@@ -19,7 +19,7 @@ export const experience = [
     company: {
       name: 'RD Investimentos',
       location: 'Natal, RN',
-      logo: 'https://media.licdn.com/dms/image/C4D0BAQGb_oo9hfRyKA/company-logo_100_100/0/1661008145536/rdinvestimentos_logo?e=1716422400&v=beta&t=HAQRpjazqPlXBvPZzJcVmaJfwFM8asQMkYEZVwn117o',
+      logo: '/rdinvestimentos_logo.jpeg',
     },
     startDate: 'Dec 2022',
     endDate: 'Present',
@@ -32,7 +32,7 @@ export const experience = [
     company: {
       name: 'Acelerabit',
       location: 'Natal, RN',
-      logo: 'https://media.licdn.com/dms/image/C4D0BAQFtBhY0hJ1Skg/company-logo_100_100/0/1677011721093/acelerabit_logo?e=1716422400&v=beta&t=OGO_GLIWraoVfXbc8qlNAKRoWT1W211UefzKbdcDd4w',
+      logo: '/acelerabit_logo.jpeg',
     },
     startDate: 'Feb 2022',
     endDate: 'Jun 2022',

@@ -26,7 +26,7 @@ export const projects = [
     category: 'Finance',
     participation: 'Co-founder',
     url: 'https://dadosb3.com.br',
-    icon: 'https://raw.githubusercontent.com/vinebarbosa/dadosb3/main/public/favicon.ico?token=GHSAT0AAAAAACMRADUSSYPLMKWDKKOX24CKZOV74VQ',
+    icon: 'https://cdn-icons-png.flaticon.com/512/25/25231.png',
     date: '2021',
   },
   {
@@ -45,7 +45,7 @@ export const projects = [
       'LifeSprint is a corporate wellness platform that helps employees to improve their health and productivity.',
     category: 'Productivity',
     participation: 'Web Developer',
-    icon: 'https://media.licdn.com/dms/image/C560BAQH-IxlCsXqfvQ/company-logo_200_200/0/1630660816899/lifesprintbr_logo?e=1716422400&v=beta&t=IioF6hTPpj55t34ystRQmy95xXtQt1ihG91mPGMI3oQ',
+    icon: '/lifesprintbr_logo.jpeg',
     url: 'https://lifesprint.com.br',
     date: '2019',
   },
